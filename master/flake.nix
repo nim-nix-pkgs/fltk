@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fltk-master.flake = false;
+  inputs.src-fltk-master.ref   = "refs/heads/master";
   inputs.src-fltk-master.owner = "Skrylar";
-  inputs.src-fltk-master.ref   = "master";
   inputs.src-fltk-master.repo  = "nfltk";
   inputs.src-fltk-master.type  = "github";
   
