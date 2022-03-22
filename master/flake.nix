@@ -1,5 +1,5 @@
 {
-  description = ''The Fast-Light Tool Kit'';
+  description = ''Fast Light Toolkit.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-fltk-master.flake = false;
   inputs.src-fltk-master.owner = "Skrylar";
-  inputs.src-fltk-master.ref   = "refs/heads/master";
+  inputs.src-fltk-master.ref   = "master";
   inputs.src-fltk-master.repo  = "nfltk";
   inputs.src-fltk-master.type  = "github";
   
