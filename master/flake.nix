@@ -11,7 +11,6 @@
   inputs.src-fltk-master.ref   = "refs/heads/master";
   inputs.src-fltk-master.owner = "Skrylar";
   inputs.src-fltk-master.repo  = "nfltk";
-  inputs.src-fltk-master.dir   = "";
   inputs.src-fltk-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
