@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."fltk-master".dir   = "master";
+  inputs."fltk-master".owner = "nim-nix-pkgs";
+  inputs."fltk-master".ref   = "master";
+  inputs."fltk-master".repo  = "fltk";
+  inputs."fltk-master".type  = "github";
+  inputs."fltk-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."fltk-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
